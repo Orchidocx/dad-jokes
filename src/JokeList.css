@@ -5,7 +5,7 @@
 }
 
 .JokeList-sidebar {
-    background: rgba(196,24,209,1);
+    background: rgb(151, 28, 160);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@
 .JokeList-sidebar img {
     width: 50%;
     border-radius: 50%;
-    box-shadow: 0 19px 38px rgba(170,24,189,1);
+    box-shadow: 0 19px 38px rgb(137, 26, 151);
 }
 
 .JokeList-jokes {
