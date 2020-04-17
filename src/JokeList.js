@@ -15,7 +15,7 @@ class JokeList extends Component {
         let jokes = [];
         while(jokes.length < this.props.numJokesToGet) {
             let response = await axios.get("https://icanhazdadjoke.com/", {headers: {Accept: "application/json"}});
-            jokes.push(response.data.joke);
+            jokes.push({joke: response.data.joke, votes: 0});
         }
         this.setState({jokes: jokes});
     }
